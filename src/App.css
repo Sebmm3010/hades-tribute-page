@@ -1,11 +1,13 @@
 :root {
   --lightgray: #D9D9D9;
   --gray: #9c9c9c;
-  --orange: #f48915;
+  --red: #c10b0b;
   --darkGrey: #464D53;
   --caloryCard: #656565;
   --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
-  --appColor: #3c3f45;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --bg-app: radial-gradient(ellipse at bottom, #153624 0%, #000200 100%);
+    /* --appColor: #000200; */
 }
 
 ::-webkit-scrollbar-track {
@@ -28,12 +30,15 @@
 .App {
 
 
-  background-image: url('./assets/bg_img.jpg');
-  background-color: #000200;
+  /* background-image: url('./assets/bg_img.jpg');
+  background-image: url('https://interfaceingame.com/wp-content/uploads/hades/hades-loading.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-image: var(--bg-app);
   mix-blend-mode: overlay;
   display: flex;
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
+  height: 140vh;
 }
-
