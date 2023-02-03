@@ -28,8 +28,6 @@
 }
 
 .App {
-
-
   /* background-image: url('./assets/bg_img.jpg');
   background-image: url('https://interfaceingame.com/wp-content/uploads/hades/hades-loading.jpg');
   background-repeat: no-repeat;
@@ -41,4 +39,11 @@
   gap: 6rem;
   overflow: hidden;
   height: 140vh;
+}
+
+.outline{
+  color: #0B040C;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--red);
 }
