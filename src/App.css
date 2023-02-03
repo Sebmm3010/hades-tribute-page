@@ -1,13 +1,13 @@
 :root {
   --lightgray: #D9D9D9;
-  --gray: #9c9c9c;
+  --gray: #CECECE;
   --red: #c10b0b;
   --darkGrey: #464D53;
   --caloryCard: #656565;
   --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
   --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
   --bg-app: radial-gradient(ellipse at bottom, #153624 0%, #000200 100%);
-    /* --appColor: #000200; */
+  /* --appColor: #000200; */
 }
 
 ::-webkit-scrollbar-track {
@@ -38,12 +38,31 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
-  height: 140vh;
 }
 
-.outline{
+.outline {
   color: #0B040C;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--red);
+  -webkit-text-stroke-color: var(--red);
+}
+
+.btn{
+  background-color: #222220;
+  color: #CD9930;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #121211;
+  border: 2px groove #5c4638;
+  border-radius: 5px;
+  transition: 300ms all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn>a{
+  color: #CD9930;
+}
+.btn:hover{
+  cursor: pointer;
 }
