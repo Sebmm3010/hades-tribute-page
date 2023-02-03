@@ -1,3 +1,7 @@
+button>a {
+    text-decoration: none;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -12,7 +16,29 @@
 
 .hero_right {
     flex: 1;
+    position: relative;
+    background-color: #1c0303;
 }
+
+.boons_container {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    margin-bottom: 1.2rem;
+    margin-top: 4rem;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 1.5rem;
+    background: #000200;
+    /* background: linear-gradient(180deg, rgba(10, 11, 13, 1) 51%, rgba(104, 122, 136, 1) 54%, rgba(66, 82, 107, 1) 79%); */
+}
+
+.boons_container>img {
+    width: 3.5rem;
+    height: 80%;
+}
+
 
 .hero_text {
     display: flex;
@@ -24,4 +50,63 @@
     font-weight: bold;
     color: #fff;
     text-overflow: inherit;
+}
+
+.hero_text>div:nth-of-type(3) {
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 80%;
+}
+
+.metrics {
+    display: flex;
+    gap: 2rem;
+}
+
+.metrics>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.metrics>div>span:nth-of-type(1) {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.metrics>div>span:nth-of-type(2) {
+    color: var(--gray);
+    text-transform: uppercase;
+}
+
+.hero_right>.btn {
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+}
+
+.goty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: .8;
+    /* margin-top: 2.5rem; */
+    position: absolute;
+    right: -2.5rem;
+    top: 1rem;
+}
+
+.hero_img{
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+    width: 68rem;
+}
+
+.back_img{
+    position: absolute;
+    top: 6rem;
+    right: 23rem;
 }
