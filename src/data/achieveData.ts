@@ -9,7 +9,7 @@ export const achieveData=[
     {
         img: tgaGoty,
         title: 'The Game Awards',
-        details:'Ganador al mejor juago indie de 2020 por The Game Awards.'
+        details:'Ganador al mejor juego indie de 2020 por The Game Awards.'
     },
     {
         img: euroGoty,

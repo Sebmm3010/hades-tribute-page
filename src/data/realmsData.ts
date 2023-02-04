@@ -3,7 +3,7 @@ export const realmsData = [
     {
         bg: imgT2,
         title: 'Tartarus',
-        details: 'La reino del inframundo donde aquellos que obraron mal en vida son enviados para enfrentar el castigo eterno por sus crímenes después de la muerte.'
+        details: 'El reino del inframundo donde aquellos que obraron mal en vida son enviados para enfrentar el castigo eterno por sus crímenes después de la muerte.'
     },
     {
         bg: imgA1,
@@ -18,6 +18,6 @@ export const realmsData = [
     {
         bg:imgTS3,
         title: 'Templo Estigia(Styx)',
-        details:'Alguna vez un majestuoso templo donde se adoraba a los dioses ctónicos del inframundo. En años más recientes el templo ha caído a un estado deplorable. Es reconocido por ser la única salida y entrada al inframundo. Aquiles ha mencionado que no hay otra entrada conocida.'
+        details:'Alguna vez un majestuoso templo donde se adoraban a los dioses ctónicos del inframundo. En años más recientes el templo ha caído a un estado deplorable. Es reconocido por ser la única salida y entrada al inframundo. Aquiles ha mencionado que no hay otra entrada conocida.'
     }
 ]

@@ -1,0 +1,17 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.gallery_title{
+    color: #fff;
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
