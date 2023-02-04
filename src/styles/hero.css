@@ -64,15 +64,19 @@ button>a {
 .metrics {
     display: flex;
     gap: 2rem;
+    margin-top: 2rem;
 }
 
 .metrics>div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .metrics>div>span:nth-of-type(1) {
-    color: #fff;
+    color: #f3d52e;
+    text-shadow: 2px 2px 2px #692D1C;
     font-size: 2rem;
 }
 
@@ -96,17 +100,19 @@ button>a {
     position: absolute;
     right: -2.5rem;
     top: 1rem;
+    z-index: 1;
 }
 
 .hero_img{
     position: absolute;
-    top: 5rem;
-    right: 1rem;
-    width: 68rem;
+    top: 6rem;
+    right: 5rem;
+    width: 48rem;
 }
 
 .back_img{
     position: absolute;
     top: 6rem;
-    right: 23rem;
+    right: 24rem;
+    z-index: -1;
 }
