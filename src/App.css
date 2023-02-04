@@ -59,10 +59,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 50;
 }
 .btn>a{
   color: #CD9930;
 }
 .btn:hover{
   cursor: pointer;
+}
+hr{
+  background-color: white;
+  width:calc(100% - 2px);
+  position: absolute;
+  top: 38rem;
 }

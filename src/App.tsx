@@ -1,6 +1,6 @@
+import { Gallery, Hero } from './sections';
 import './App.css';
 import './styles/stars.css';
-import { Hero } from './sections';
 
 function App() {
 
@@ -12,6 +12,8 @@ function App() {
       <div id="star3"></div>
       <main className='App'>
         <Hero />
+        <hr />
+        <Gallery/>
       </main>
     </>
   )
