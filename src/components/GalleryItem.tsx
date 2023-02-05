@@ -1,9 +1,9 @@
 import { galleryData } from "../interfaces"
 
 
-export const ImgArticle = ({ bg, title, details }: galleryData) => {
+export const GalleryItem = ({ bg, title, details }: galleryData) => {
     return (
-        <div className="window" style={{ backgroundImage: `url(${bg})` }}>
+        <div className="item" style={{ backgroundImage: `url(${bg})` }}>
             <div className="overlay">
                 <div className="text_container">
                     <span>{title}</span>
