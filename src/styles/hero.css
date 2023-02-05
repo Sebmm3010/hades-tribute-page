@@ -5,6 +5,7 @@ button>a {
 .hero {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #fff;
 }
 
 .hero_left {
@@ -76,7 +77,7 @@ button>a {
 }
 
 .metrics>div>span:nth-of-type(1) {
-    color: #f3d52e;
+    color: var(--gold);
     text-shadow: 2px 2px 2px #692D1C;
     font-size: 2rem;
 }
@@ -106,8 +107,8 @@ button>a {
 
 .hero_img{
     position: absolute;
-    top: 6rem;
-    right: 5rem;
+    top: 4.56rem;
+    right: 3rem;
     width: 48rem;
 }
 
