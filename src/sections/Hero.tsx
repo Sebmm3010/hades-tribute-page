@@ -40,7 +40,7 @@ export const Hero = () => {
           {/* Metrics */}
           <div className="metrics">
             <div>
-              <span>9.3/10</span>
+              <span>9.3</span>
               <span>En Metacritics</span>
             </div>
             <div>

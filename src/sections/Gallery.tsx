@@ -1,5 +1,7 @@
+import { GalleryItem } from '../components';
 import { realmsData } from '../data';
 import '../styles/gallery.css';
+import { galleryData } from '../interfaces/interfaces';
 
 export const Gallery = () => {
     return (
@@ -15,6 +17,15 @@ export const Gallery = () => {
                 <span>
                     del inframundo
                 </span>
+            </div>
+
+            {/* IMGS */}
+            <div className="img_gallery">
+                {
+                    realmsData.map(data=>(
+                        <GalleryItem key={data.title} {...data}/>
+                    ))
+                }
             </div>
         </section>
     )

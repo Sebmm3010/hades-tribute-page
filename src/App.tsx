@@ -12,7 +12,7 @@ function App() {
       <div id="star3"></div>
       <main className='App'>
         <Hero />
-        <hr />
+        {/* <hr /> */}
         <Gallery/>
       </main>
     </>
