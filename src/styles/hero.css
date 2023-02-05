@@ -17,7 +17,8 @@ button>a {
 .hero_right {
     flex: 1;
     position: relative;
-    background-color: #1c0303;
+    /* background-color: #1c0303; */
+    background-image: url('../assets/realms/asphodel/img-1.png');
 }
 
 .boons_container {
