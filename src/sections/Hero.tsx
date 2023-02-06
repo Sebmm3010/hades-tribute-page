@@ -38,7 +38,7 @@ export const Hero = () => {
 
             <div>
               <span>
-                Desafía al mismísimo Dios de los muertos, derrota enemigos y atraviesa mazmorras, y toma prestados poderes de otros Dioses que te guiaran a un secreto inesperado.
+                Desafía al mismísimo Dios de los muertos, derrota enemigos y atraviesa mazmorras, toma prestados poderes de los Dioses del panteón griego, que te guiaran a un secreto inesperado.
               </span>
             </div>
           </div>
