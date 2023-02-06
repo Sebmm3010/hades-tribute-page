@@ -8,11 +8,16 @@ button>a {
     border-bottom: 1px solid #fff;
 }
 
+
 .hero_left {
     padding: 1.5rem 2rem 2rem 2rem;
     flex: 3;
-    flex-direction: column;
-    gap: 2rem;
+        /* flex-direction: column;
+        gap: 2rem; */
+}
+
+.support{
+    height: 50px;
 }
 
 .hero_right {

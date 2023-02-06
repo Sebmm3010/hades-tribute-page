@@ -1,6 +1,28 @@
 .header {
     display: flex;
+}
+
+.header.active {
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.container {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
+}
+.container.active{
+    max-width:1400px;
+    align-items: ;
 }
 
 .logo {
@@ -13,11 +35,16 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+
+}
+
+.nav_menu>li>a {
+    text-decoration: none;
     color: var(--gray);
     font-weight: bold;
 }
 
-.nav_menu>li:hover{
+.nav_menu>li>a:hover {
     cursor: pointer;
     color: var(--red);
 }
