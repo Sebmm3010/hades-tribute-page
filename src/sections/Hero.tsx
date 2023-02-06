@@ -2,13 +2,18 @@ import '../styles/hero.css';
 import { Navbar } from '../components/Navbar';
 import { boonsData } from '../data';
 import { goty, heroImg, backImg } from '../assets';
+import { useContext } from 'react';
+import { UiContext } from '../context';
 
 export const Hero = () => {
+
+  const { isScrolling } = useContext(UiContext);
   return (
     <>
-      <section className="hero">
+      <section className='hero'>
 
-        <div className="hero_left">
+        <div className={isScrolling ? 'hero_left active' : 'hero_left'}>
+          {isScrolling? <div className='support'></div>:null}
           <Navbar />
           {/* Boons */}
 
