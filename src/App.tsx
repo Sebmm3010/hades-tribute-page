@@ -1,8 +1,13 @@
 import { Gallery, Hero } from './sections';
 import './App.css';
 import './styles/stars.css';
+import { Modal } from './components';
+import { useContext } from 'react';
+import { UiContext } from './context';
 
 function App() {
+
+  const { showModal } = useContext(UiContext);
 
   return (
     <>
@@ -13,7 +18,12 @@ function App() {
       <main className='App'>
         <Hero />
         {/* <hr /> */}
-        <Gallery/>
+        <Gallery />
+        {
+          showModal
+            ? <Modal />
+            : null
+        }
       </main>
     </>
   )
