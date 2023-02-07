@@ -1,6 +1,9 @@
 
-export interface galleryData{
-    bg:string;
-    title:string;
-    details:string;
+export interface Realms {
+    bg: string;
+    title: string;
+    details: string;
+    type: realmsName;
 }
+
+export type realmsName = 'tartarus' | 'asphodel' | 'elysium' | 'styx' | '';

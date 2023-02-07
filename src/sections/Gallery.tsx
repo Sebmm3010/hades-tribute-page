@@ -1,7 +1,6 @@
 import { GalleryItem } from '../components';
 import { realmsData } from '../data';
 import '../styles/gallery.css';
-import { galleryData } from '../interfaces/interfaces';
 
 export const Gallery = () => {
     return (
