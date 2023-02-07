@@ -1,0 +1,11 @@
+.caracteristicas {
+    padding: 0 2rem;
+    display: flex;
+    grid-template: 2rem;
+}
+
+
+
+.right_side {
+    flex: 1 1;
+}
