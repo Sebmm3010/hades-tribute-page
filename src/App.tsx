@@ -1,4 +1,4 @@
-import { Gallery, Hero } from './sections';
+import { Caracteristicas, Gallery, Hero } from './sections';
 import './App.css';
 import './styles/stars.css';
 import { Modal } from './components';
@@ -19,6 +19,7 @@ function App() {
         <Hero />
         {/* <hr /> */}
         <Gallery />
+        <Caracteristicas/>
         {
           showModal
             ? <Modal />
