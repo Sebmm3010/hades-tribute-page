@@ -14,10 +14,10 @@ export const routesData:Route[] = [
     },
     {
         name: 'Caracteristica',
-        path: '#caracteristics'
+        path: '#caracteristicas'
     },
     {
-        name: 'Revies y premios',
+        name: 'Premios',
         path: '#reviews'
     },
     {
