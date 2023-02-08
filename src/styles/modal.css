@@ -41,7 +41,7 @@
 
 .modal_arrow {
     display: flex;
-    background-color: #222220;
+    background-color: var(--bg-dark);
     color: var(--gold);
     justify-content: space-between;
     position: absolute;
