@@ -1,20 +1,34 @@
-import { sliderData } from "../data"
+import { useEffect } from "react";
+import { sliderData as data } from "../data";
 import { useSlide } from '../hooks';
-import { useEffect, useState } from 'react';
+
 
 
 export const Slider = () => {
-    const [imgs, setImgs] = useState<string[]>([]);
-    useEffect(() => setImgs(sliderData.map(data => data.img)), []);
 
-    
-    const { indexImg, handlerLeft, handlerRight } = useSlide(imgs.length);
+    const { indexImg, handlerLeft, handlerRight } = useSlide(data.length);
+    let slideInterval: number;
+
+    function autoSlide() {
+        slideInterval = setInterval(handlerRight, 10000);
+    }
+
+    useEffect(() => {
+        autoSlide()
+        return () => clearInterval(slideInterval);
+    }, [indexImg]);
+
+
     return (
         <div className="slide_show">
-            <img src={imgs[indexImg]} alt='' />
-            <button onClick={handlerLeft}>◀</button>
+            <img
+                src={data[indexImg].img}
+                alt={data[indexImg].alt}
+            />
 
-            <button onClick={handlerRight}>▶</button>
+            <button className="left btn" onClick={handlerLeft}>◀</button>
+
+            <button className="right btn" onClick={handlerRight}>▶</button>
         </div>
     )
 }

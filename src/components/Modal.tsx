@@ -7,7 +7,7 @@ import { useSlide } from '../hooks/useSlide';
 
 export const Modal = () => {
 
-  const { galleryType, showModal, setShowModal } = useContext(UiContext);
+  const { galleryType, setShowModal } = useContext(UiContext);
 
   const [imgs, setImgs] = useState<string[]>([]);
   useEffect(() => {
