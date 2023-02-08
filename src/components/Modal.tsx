@@ -15,8 +15,8 @@ export const Modal = () => {
       (data.type === galleryType) && setImgs(data.imgs);
     });
   }, [galleryType]);
-  
-  const {  indexImg, setIndexImg, handlerLeft, handlerRight } = useSlide(imgs.length);
+
+  const { indexImg, setIndexImg, handlerLeft, handlerRight } = useSlide(imgs.length);
 
   const handleCloseModal = (event: MouseEvent) => {
     const target = event.target as Element;
@@ -36,12 +36,12 @@ export const Modal = () => {
 
       <button className="modal_arrow arrow_left" onClick={handlerLeft}>
 
-        <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path d="M30 4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V4zM0 4a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v24a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4z m23 11a1 1 0 0 1 0 2H11.4l4.3 4.3a1 1 0 0 1-1.4 1.4l-6-6a1 1 0 0 1 0-1.4l6-6a1 1 0 1 1 1.4 1.4L11.4 15H23z" fillRule="evenodd" /></svg>
+        <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path d="M30 16a1 1 0 0 0-1-1H5.4l6.3-6.3a1 1 0 1 0-1.4-1.4l-8 8a1 1 0 0 0 0 1.4l8 8a1 1 0 0 0 1.4-1.4L5.4 17H29A1 1 0 0 0 30 16z" fill-rule="evenodd" /></svg>
 
       </button>
 
       <button className="modal_arrow arrow_right" onClick={handlerRight}>
-        <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path d="M30 4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V4zM0 4a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v24a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4z m9 11a1 1 0 0 0 0 2h11.6l-4.3 4.3a1 1 0 0 0 1.4 1.4l6-6a1 1 0 0 0 0-1.4l-6-6a1 1 0 1 0-1.4 1.4L20.6 15H9z" fillRule="evenodd" /></svg>
+        <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path d="M2 16a1 1 0 0 1 1-1h23.6l-6.3-6.3a1 1 0 0 1 1.4-1.4l8 8a1 1 0 0 1 0 1.4l-8 8a1 1 0 0 1-1.4-1.4L26.6 17H3A1 1 0 0 1 2 16z" fill-rule="evenodd" /></svg>
       </button>
 
     </div>
