@@ -2,35 +2,21 @@ import { galleryData } from '../data';
 import { MouseEvent, useContext, useEffect, useState } from 'react';
 import '../styles/modal.css';
 import { UiContext } from '../context';
+import { useSlide } from '../hooks/useSlide';
 
 
 export const Modal = () => {
 
   const { galleryType, showModal, setShowModal } = useContext(UiContext);
+
   const [imgs, setImgs] = useState<string[]>([]);
-  const [indexImg, setIndexImg] = useState<number>(0);
   useEffect(() => {
     galleryData.map(data => {
       (data.type === galleryType) && setImgs(data.imgs);
     });
-  }, [galleryType, showModal]);
-
-
-  const handlerRight = () => {
-    if (indexImg >= imgs.length - 1) {
-      setIndexImg(0);
-      return;
-    }
-    setIndexImg(indexImg + 1);
-  }
-
-  const handlerLeft = () => {
-    if (indexImg === 0) {
-      setIndexImg(imgs.length - 1);
-      return;
-    }
-    setIndexImg(indexImg - 1);
-  }
+  }, [galleryType]);
+  
+  const {  indexImg, setIndexImg, handlerLeft, handlerRight } = useSlide(imgs.length);
 
   const handleCloseModal = (event: MouseEvent) => {
     const target = event.target as Element;
