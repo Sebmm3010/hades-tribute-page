@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     color: white;
+    border-bottom: 1px solid #fff;
 }
 
 .wrapper {
@@ -85,5 +86,5 @@
 }
 
 .right_list>li>img{
-    width: 2.5rem;
+    width: 2rem;
 }

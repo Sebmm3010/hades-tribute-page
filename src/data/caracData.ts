@@ -8,11 +8,11 @@ interface Data{
 export const caracData:Data[]= [
     {
         curren:coin,
-        details:'Obtén mejoras y poderes al recolectar oro.'
+        details:'Obtén mejoras momentaneas y poderes al recolectar oro.'
     },
     {
         curren: darkness,
-        details: 'Obtén mejoras permanentes para tener más chanés de escapar.'
+        details: 'Mejora tus estadísticas permanentes con el espejo de la noche para tener más chance de escapar.'
     },
     {
         curren: titanBlood,
@@ -24,6 +24,6 @@ export const caracData:Data[]= [
     },
     {
         curren: key,
-        details:'Desbloquea nuevas mejoras y consigue mejores poderes.'
+        details:'Desbloquea secretos y consigue mejores poderes con las llaves ctónicas.'
     }
 ]
