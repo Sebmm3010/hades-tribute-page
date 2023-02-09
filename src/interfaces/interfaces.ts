@@ -6,4 +6,4 @@ export interface Realms {
     type: realmsName;
 }
 
-export type realmsName = 'tartarus' | 'asphodel' | 'elysium' | 'styx' | '';
+export type realmsName = 'tartarus' | 'asphodel' | 'elysium' | 'styx';
