@@ -17,7 +17,7 @@ export const Characters = () => {
         {
           data[indexImg].url
             ? (<a href={data[indexImg].url} target="_blank" rel="noopener noreferrer">
-              Ver mas...
+              Saber mas...
             </a>)
           :null
         }
