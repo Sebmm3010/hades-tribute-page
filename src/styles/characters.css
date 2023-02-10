@@ -1,0 +1,78 @@
+.characters{
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.left_characters{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.left_characters>:first-child,
+.left_characters>:nth-child(2){
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.character_info>:first-child{
+    color: var(--bright-gold);
+    font-size: 1.2rem;
+}
+
+.left_characters>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    line-height: 40px;  
+}
+.left_characters>a{
+    color: var(--red);
+    text-decoration: none;
+}
+
+.right_characters{
+    flex: 1;
+    position: relative;
+}
+
+.right_characters>:first-child {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid var(--gold);
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+.right_characters>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top: 4rem;
+    background-color: var(--bg-dark);
+}
+
+.right_characters>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.c_arrows{
+    color: #fff;
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+.c_arrows>svg{
+    cursor: pointer;
+}
