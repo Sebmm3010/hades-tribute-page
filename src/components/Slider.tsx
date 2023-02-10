@@ -23,7 +23,7 @@ export const Slider = () => {
     const variant: Variants = {
         initial: {
             // x: 20,
-            opacity: 0
+            opacity: 0.5
         },
         visible: {
             // x: 0,
@@ -31,7 +31,7 @@ export const Slider = () => {
         },
         exit: {
             // x: -20,
-            opacity: 0
+            opacity: 0.5
         }
     }
 
