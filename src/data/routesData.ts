@@ -17,10 +17,6 @@ export const routesData:Route[] = [
         path: '#caracteristicas'
     },
     {
-        name: 'Premios',
-        path: '#reviews'
-    },
-    {
         name: 'Personajes',
         path: '#characters'
     }

@@ -8,18 +8,18 @@ interface character {
     url?: string;
 }
 
-export const characters: character[] = [
+export const charactersData: character[] = [
     {
         img: zagreus,
         name: 'Zagreus',
         occupation: 'Príncipe del inframundo.',
-        details: 'Zagreus es el hijo de Hades y el protagonista de nuestra historia, quien hartó del inframundo intentara escapar y descubriendo que con sus acciones desencadenara eventos que no esperaba.'
+        details: 'Zagreus es el hijo de Hades y el protagonista de nuestra historia, quien hartó del inframundo intentara escapar, descubriendo que con sus acciones desencadenara eventos que no esperaba.'
     },
     {
         img: hades,
         name: 'Hades',
         occupation: 'Dios de la muerte.',
-        details: 'Hades, Dios de la muerte, y padre de Zagreus. Es quien esta acargo de mantener el orden en el inframundo determinando el lugar y el castigo que tendran las almas que llegan al inframundo, y escuchando las peticiones de las sombras que llegan ante el.'
+        details: 'Hades, Dios de la muerte, y padre de Zagreus. Es quien esta acargo de mantener el orden en el inframundo determinando el lugar y el castigo que tendran las almas que llegan al inframundo.'
     },
     {
         img: megara,
