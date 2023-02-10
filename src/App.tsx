@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { Modal } from './components';
-import { Caracteristicas, Characters, Gallery, Hero } from './sections';
+import { Caracteristicas, Characters, Footer, Gallery, Hero } from './sections';
 import { UiContext } from './context';
 import './styles/stars.css';
 import './App.css';
@@ -18,8 +18,9 @@ function App() {
       <main className='App'>
         <Hero />
         <Gallery />
-        <Caracteristicas/>
-        <Characters/>
+        <Caracteristicas />
+        <Characters />
+        <Footer />
         {
           showModal
             ? <Modal />
