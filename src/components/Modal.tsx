@@ -36,12 +36,12 @@ export const Modal = () => {
 
       <button className="modal_arrow arrow_left" onClick={handlerLeft}>
 
-        <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path d="M30 16a1 1 0 0 0-1-1H5.4l6.3-6.3a1 1 0 1 0-1.4-1.4l-8 8a1 1 0 0 0 0 1.4l8 8a1 1 0 0 0 1.4-1.4L5.4 17H29A1 1 0 0 0 30 16z" fill-rule="evenodd" /></svg>
+        <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path d="M30 16a1 1 0 0 0-1-1H5.4l6.3-6.3a1 1 0 1 0-1.4-1.4l-8 8a1 1 0 0 0 0 1.4l8 8a1 1 0 0 0 1.4-1.4L5.4 17H29A1 1 0 0 0 30 16z" fillRule="evenodd" /></svg>
 
       </button>
 
       <button className="modal_arrow arrow_right" onClick={handlerRight}>
-        <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path d="M2 16a1 1 0 0 1 1-1h23.6l-6.3-6.3a1 1 0 0 1 1.4-1.4l8 8a1 1 0 0 1 0 1.4l-8 8a1 1 0 0 1-1.4-1.4L26.6 17H3A1 1 0 0 1 2 16z" fill-rule="evenodd" /></svg>
+        <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path d="M2 16a1 1 0 0 1 1-1h23.6l-6.3-6.3a1 1 0 0 1 1.4-1.4l8 8a1 1 0 0 1 0 1.4l-8 8a1 1 0 0 1-1.4-1.4L26.6 17H3A1 1 0 0 1 2 16z" fillRule="evenodd" /></svg>
       </button>
 
     </div>
