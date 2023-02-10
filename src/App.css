@@ -7,6 +7,7 @@
   --caloryCard: #656565;
   /* --gold: #f3d52e; */
   --gold: #CD9930;
+  --bright-gold: rgb(255, 255, 53);
   --bg-dark: #222220;
   --overlay: linear-gradient(45deg, var(--black), transparent);
   --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
@@ -42,8 +43,24 @@
   gap: 6rem;
   overflow: hidden;
 }
-li{
+
+li {
   list-style: none;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  
 }
 
 .App::before {

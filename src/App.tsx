@@ -1,9 +1,9 @@
-import { Caracteristicas, Gallery, Hero } from './sections';
-import './App.css';
-import './styles/stars.css';
-import { Modal } from './components';
 import { useContext } from 'react';
+import { Modal } from './components';
+import { Caracteristicas, Characters, Gallery, Hero } from './sections';
 import { UiContext } from './context';
+import './styles/stars.css';
+import './App.css';
 
 function App() {
 
@@ -17,9 +17,9 @@ function App() {
       <div id="star3"></div>
       <main className='App'>
         <Hero />
-        {/* <hr /> */}
         <Gallery />
         <Caracteristicas/>
+        <Characters/>
         {
           showModal
             ? <Modal />
