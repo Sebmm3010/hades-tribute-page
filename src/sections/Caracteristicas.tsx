@@ -11,8 +11,8 @@ export const Caracteristicas = () => {
                 </div>
 
                 <div className="right_side">
-                    <p>Aprovecha...</p>
                     <div>
+                    <p>Aprovecha...</p>
                         <span>Cada una de las </span>
                         <span className='outline'>posibilidades</span>
                     </div>

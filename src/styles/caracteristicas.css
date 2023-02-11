@@ -10,7 +10,6 @@
     width: 90%;
     height: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -63,7 +62,7 @@
     text-transform: uppercase;
 }
 
-.right_side>p{
+.right_side>div>p{
     font-weight: bold;
     font-size: 1.2rem;
     color: var(--gold);
@@ -88,4 +87,39 @@
 
 .right_list>li>img{
     width: 2rem;
+}
+
+@media screen and (max-width:768px) {
+
+    .caracteristicas{
+        padding: 0;
+    }
+
+    .wrapper{
+        justify-content: center;
+    }
+
+    .left_side{
+        position: relative;
+        display: none;
+    }
+
+    .right_side{
+        width: 100%;
+    }
+
+    .right_side>div{
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right_list>li{
+        font-size: small;
+        font-weight: lighter;
+    }
+    .right_list>li>img{
+        width: 1.5rem;
+    }
+    
 }

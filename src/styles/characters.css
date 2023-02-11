@@ -45,7 +45,7 @@
     position: relative;
 }
 
-.right_characters>:first-child {
+.marco {
     position: absolute;
     width: 17rem;
     height: 20rem;
@@ -55,7 +55,7 @@
     top: 0.1rem;
 }
 
-.right_characters>:nth-child(2) {
+.fondo {
     position: absolute;
     width: 17rem;
     height: 19rem;
@@ -83,4 +83,41 @@
 
 .c_arrows>svg {
     cursor: pointer;
+}
+
+
+@media screen and (max-width:768px) {
+    .characters {
+        flex-direction: column;
+    }
+
+    .left_characters>:first-child,
+    .left_characters>:nth-child(2) {
+        font-size: xx-large;
+    }
+
+    .right_characters {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .marco,
+    .fondo {
+        position: relative;
+        display: none;
+    }
+
+    .right_characters>img {
+        top: 0;
+        right: 0;
+        position: relative;
+        align-self: center;
+    }
+
+    .c_arrows {
+        bottom: -5rem;
+        left: 8rem;
+    }
 }

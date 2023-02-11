@@ -66,3 +66,25 @@
 .arrow_right {
     right: 6rem;
 }
+
+@media screen and (max-width:768px) {
+    .modal>img {
+        width: 95%;
+        margin: auto;
+    }
+
+    .modal>span {
+        position: relative;
+        top: 36rem;
+    }
+
+    .arrow_right {
+        right: 5rem;
+        top: 37rem;
+    }
+
+    .arrow_left {
+        left: 5rem;
+        top: 37rem;
+    }
+}

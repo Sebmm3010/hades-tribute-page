@@ -24,8 +24,8 @@ export const Characters = () => {
         }
       </div>
       <div className="right_characters">
-        <div></div>
-        <div></div>
+        <div className='marco'></div>
+        <div className='fondo'></div>
         <m.img variants={characterImg} initial="initial" animate="animate" exit="exit" key={data[indexImg].name} className='noselect' src={data[indexImg].img} alt={data[indexImg].name} />
 
         {/* Arrows */}

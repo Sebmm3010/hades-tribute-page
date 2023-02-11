@@ -13,7 +13,7 @@ export const Footer = () => {
                         platformsLogos.map(logo => (
                             <div key={logo.title} className='logo_footer'>
                                 <img src={logo.img} alt="plaformLogo" />
-                                <small>{logo.title}</small>
+                                {/* <small>{logo.title}</small> */}
                             </div>
                         ))
                     }
