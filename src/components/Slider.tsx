@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import { motion as m, Variants } from 'framer-motion';
+import { motion as m } from 'framer-motion';
 import { useSlide } from '../hooks';
-import { sliderData as data } from "../data";
+import { slider, sliderData as data } from "../data";
 
 
 
@@ -20,26 +20,11 @@ export const Slider = () => {
         return () => clearInterval(slideInterval);
     }, [indexImg]);
 
-    const variant: Variants = {
-        initial: {
-            // x: 20,
-            opacity: 0.5
-        },
-        visible: {
-            // x: 0,
-            opacity: 1
-        },
-        exit: {
-            // x: -20,
-            opacity: 0.5
-        }
-    }
-
 
     return (
         <div className="slide_show">
             <m.img
-                variants={variant}
+                variants={slider}
                 src={data[indexImg].img}
                 alt={data[indexImg].alt}
                 key={data[indexImg].alt}

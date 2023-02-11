@@ -6,3 +6,4 @@ export * from './galleryData';
 export * from './realmsData';
 export * from './routesData';
 export * from './sliderData';
+export * from './variants';
