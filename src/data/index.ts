@@ -1,4 +1,3 @@
-export * from './achieveData';
 export * from './boonsData';
 export * from './caracData';
 export * from './characterData';

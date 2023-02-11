@@ -6,7 +6,7 @@ interface Route {
 export const routesData:Route[] = [
     {
         name:'Inicio',
-        path:'#'
+        path:'#hero'
     },
     {
         name: 'Galeria',

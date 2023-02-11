@@ -9,10 +9,8 @@ export const Hero = () => {
 
   const { isScrolling } = useContext(UiContext);
   return (
-    <>
-      <section className='hero'>
-
-        <div className={isScrolling ? 'hero_left active' : 'hero_left'}>
+      <section className='hero' id="hero">
+        <div className="hero_left">
           {isScrolling? <div className='support'></div>:null}
           <Navbar />
           {/* Boons */}
@@ -76,6 +74,5 @@ export const Hero = () => {
           <img src={backImg} alt="backImg" className='back_img' />
         </div>
       </section>
-    </>
   )
 }

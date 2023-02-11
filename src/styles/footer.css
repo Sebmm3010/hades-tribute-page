@@ -2,6 +2,7 @@
     border-top: 1px solid #fff;
     position: relative;
     background-color: var(--bg-dark);
+    bottom: 0;
 }
 
 .logos_container {
@@ -14,7 +15,7 @@
     height: 10rem;
 }
 
-.logo {
+.logo_footer {
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -52,19 +53,18 @@
     position: absolute;
     border-radius: 50%;
     filter: blur(212px);
+    width:15rem;
+    height:10rem;
     z-index: 1;
 }
 
-.footer_blur_dark {
+.footer_blur_red {
     background: rgba(138, 29, 29, 0.6);
-    width:15rem;
-    height: 55rem;
     left: 76rem;
 }
 
 .footer_blur_green {
     background: rgba(200, 239, 66, .5) !important;
-    width: 15rem;
-    height: 55rem;
+    height: 10rem;
     left: 40rem;
 }

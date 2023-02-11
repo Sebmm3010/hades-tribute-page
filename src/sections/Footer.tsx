@@ -5,13 +5,13 @@ import '../styles/footer.css';
 export const Footer = () => {
     return (
         <section className='footer'>
-            <div className="blur footer_blur_dark"></div>
+            <div className="blur footer_blur_red"></div>
             <div className="blur footer_blur_green"></div>
             <div className="logos_container">
                 <div className="platforms_logos">
                     {
                         platformsLogos.map(logo => (
-                            <div key={logo.title} className='logo'>
+                            <div key={logo.title} className='logo_footer'>
                                 <img src={logo.img} alt="plaformLogo" />
                                 <small>{logo.title}</small>
                             </div>
