@@ -169,6 +169,11 @@
         position: relative;
     }
 
+    .hero_right>.btn {
+        top: -30.6rem;
+        right: 2rem;
+    }
+
     .goty {
         position: relative;
         display: none;

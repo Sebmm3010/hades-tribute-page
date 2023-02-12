@@ -48,3 +48,10 @@
     cursor: pointer;
     color: var(--red);
 }
+
+@media screen and (max-width:768px) {
+    .nav_menu{
+        position: relative;
+        display: none;
+    }
+}
