@@ -15,7 +15,7 @@
 
 ## About The Project
 
-![Screen Shot](public/muestra.png)
+![Screen Shot](/muestra.png)
 
 Pagina hecha con React y Typescript con temática del videojuego Hades. 
 
@@ -36,7 +36,7 @@ npm install npm@latest -g
 1. Clonar el repositorio
 
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/Sebmm3010/hades-tribute-page.git
 ```
 
 3. Instalar los node_modules
