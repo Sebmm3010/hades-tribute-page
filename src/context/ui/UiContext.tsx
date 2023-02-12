@@ -3,15 +3,17 @@ import { realmsName } from '../../interfaces/interfaces';
 
 
 interface ContextProps {
-    isScrolling:boolean;
-    showModal:boolean;
-    galleryType:string;
+    isScrolling: boolean;
+    showModal: boolean;
+    galleryType: string;
+    showMenu: boolean;
 
     //* Metodos
     setIsScrolling: (value: boolean) => void;
     setShowModal: (value: boolean) => void;
-    setGalleryType:(value:realmsName)=>void;
+    setGalleryType: (value: realmsName) => void;
+    setShowMenu: (value: boolean) => void;
 }
 
 
-export const UiContext = createContext({} as ContextProps );
+export const UiContext = createContext({} as ContextProps);

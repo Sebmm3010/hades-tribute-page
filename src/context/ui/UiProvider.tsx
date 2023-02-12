@@ -6,13 +6,16 @@ export interface uiState {
     isScrolling: boolean;
     showModal: boolean;
     galleryType: realmsName;
+    showMenu: boolean;
 }
 
 
 const Ui_INITIAL_STATE: uiState = {
     isScrolling: false,
     showModal: false,
-    galleryType: ''
+    galleryType: '',
+    showMenu: false,
+
 }
 
 interface Props {
@@ -33,7 +36,11 @@ export const UiProvider: FC<Props> = ({ children }) => {
     }
 
     const setGalleryType = (value: realmsName) => {
-        dispatch({ type: '[UI] - setGalleryType', payload:value });
+        dispatch({ type: '[UI] - setGalleryType', payload: value });
+    }
+
+    const setShowMenu = (value: boolean) => {
+        dispatch({ type: '[UI] - setShowMenu', payload: value });
     }
 
     return (
@@ -41,7 +48,8 @@ export const UiProvider: FC<Props> = ({ children }) => {
             ...state,
             setIsScrolling,
             setShowModal,
-            setGalleryType
+            setGalleryType,
+            setShowMenu
 
         }}>
             {children}
