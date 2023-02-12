@@ -17,7 +17,6 @@
 .hero_right {
     flex: 1;
     position: relative;
-    /* background-color: #1c0303; */
     background-image: url('../assets/realms/asphodel/img-1.png');
 }
 
@@ -54,7 +53,6 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
-    /* text-overflow: inherit; */
 }
 
 .hero_text>div:nth-of-type(3) {

@@ -5,7 +5,6 @@
   --red: #c10b0b;
   --darkGrey: #464D53;
   --caloryCard: #656565;
-  /* --gold: #f3d52e; */
   --gold: #CD9930;
   --bright-gold: rgb(255, 255, 53);
   --bg-dark: #222220;
@@ -33,7 +32,6 @@
 }
 
 .App {
-  /* background-image: var(--bg-app); */
   background-image: url('./assets/bg_img2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
