@@ -1,0 +1,30 @@
+.movile_menu{
+    position: fixed;
+    background-color: var(--bg-dark);
+    padding: 5px 15px;
+    border-radius: 10px;
+    bottom:1rem;
+    right: 2rem;
+    /* opacity: .8; */
+    border: 1px solid var(--gold);
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movile_icon{
+    color: #fff;
+}
+.movile_routes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 10px 10px;
+}
+.movile_routes>a{
+    text-decoration: none;
+    color: #fff;
+}
