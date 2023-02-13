@@ -32,7 +32,7 @@ export const Modal = () => {
       <span className='close' onClick={handleCloseModal}>
         <svg viewBox="0 0 32 32" width="32" height="32" stroke="currentColor" fill="currentColor"><path className='close' d="M16 2a14 14 0 1 1 0 28 14 14 0 0 1 0-28z m0 12.3L12.7 11.1a1.2 1.2 0 1 0-1.6 1.6L14.3 16 11.1 19.3a1.2 1.2 0 1 0 1.6 1.6L16 17.7 19.3 20.9a1.2 1.2 0 1 0 1.6-1.6L17.7 16 20.9 12.7a1.2 1.2 0 1 0-1.6-1.6L16 14.3z" /></svg>
       </span>
-      <img src={imgs[indexImg]} alt="imgGalley" />
+      <img src={imgs[indexImg]} alt="imgGalley" loading='lazy' />
 
       <button className="modal_arrow arrow_left" onClick={handlerLeft}>
 

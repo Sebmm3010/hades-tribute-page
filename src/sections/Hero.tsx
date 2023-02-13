@@ -72,7 +72,7 @@ export const Hero = () => {
         </button>
 
         <div className="goty">
-          <img src={goty} alt="goty" />
+          <img src={goty} alt="goty" loading='lazy' />
         </div>
 
         {/* Hero imgs */}

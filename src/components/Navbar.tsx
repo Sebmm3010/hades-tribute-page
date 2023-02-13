@@ -21,7 +21,7 @@ export const Navbar = () => {
     return (
         <header className={isScrolling && !movile ? 'header active' : 'header'}>
             <div className={isScrolling && !movile ? 'container active' : 'container'}>
-                <img src={hadesLogo} alt="logo" className='logo' />
+                <img src={hadesLogo} alt="logo" className='logo' loading='lazy' />
 
                 <ul className='nav_menu'>
                     {

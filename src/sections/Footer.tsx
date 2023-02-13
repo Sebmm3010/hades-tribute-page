@@ -12,7 +12,7 @@ export const Footer = () => {
                     {
                         platformsLogos.map(logo => (
                             <div key={logo.title} className='logo_footer'>
-                                <img src={logo.img} alt="plaformLogo" />
+                                <img src={logo.img} alt="plaformLogo" loading='lazy' />
                                 {/* <small>{logo.title}</small> */}
                             </div>
                         ))
@@ -23,7 +23,7 @@ export const Footer = () => {
                         contactLogos.map(logo => (
 
                             <a key={logo.link} href={logo.link} target="_blank" rel="noopener noreferrer">
-                                <img src={logo.img} alt="contactLogo" />
+                                <img src={logo.img} alt="contactLogo" loading='lazy' />
                             </a>
                         ))
                     }

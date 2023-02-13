@@ -20,7 +20,7 @@ export const Caracteristicas = () => {
                     <ul className='right_list'>
                         { caracData.map(data=>(
                             <li key={data.details}>
-                                <img src={data.curren} alt="currenci" />
+                                <img src={data.curren} alt="currenci" loading='lazy' />
                                 {data.details}
                             </li>
                         ))}
