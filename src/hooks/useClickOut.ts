@@ -2,11 +2,11 @@ import { useEffect, useRef } from "react"
 
 
 export const useClickOut = (handler: Function) => {
-    const domNode = useRef<any>(null);
+    const ref = useRef<any>(null);
 
     useEffect(() => {
         const newHandler = (event: MouseEvent) => {
-            if (!domNode.current?.contains(event.target as any)) {
+            if (!ref.current?.contains(event.target as any)) {
                 handler();
             }
         }
@@ -15,6 +15,6 @@ export const useClickOut = (handler: Function) => {
         return () => document.removeEventListener('mousedown', newHandler);
     });
 
-    return domNode;
+    return ref;
 
 }
