@@ -6,7 +6,7 @@
     Una pagina tributo a mi juego favorito.
     <br/>
     <br/>
-    <a href="https://github.com/Sebmm3010/hades-tribute-page">View Demo</a>
+    <a href="https://hades-smm.netlify.app/">View Demo</a>
     .
   </p>
 </p>
