@@ -1,27 +1,4 @@
-import { epicLogo, github, linkedin, playLogo, steam, switchLogo, twitter, xbox } from '../assets';
-
-export const platformsLogos = [
-    {
-        img:steam,
-        title:'Steam'
-    },
-    {
-        img:epicLogo,
-        title:'Epic-games'
-    },
-    {
-        img:playLogo,
-        title:'PlayStation'
-    },
-    {
-        img:xbox,
-        title:'Xbox'
-    },
-    {
-        img:switchLogo,
-        title:'Nintendo switch'
-    }
-];
+import { github, linkedin, twitter } from '../assets';
 
 export const contactLogos = [
     {
