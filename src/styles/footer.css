@@ -27,20 +27,11 @@
     cursor: pointer;
 }
 
-.platforms_logos {
-    display: flex;
-    gap: 2rem;
-}
-
-.platforms_logos>div>img {
-    width: 2rem;
-    height: 2rem;
-    cursor: pointer;
-}
 
 .contact_logos {
     display: flex;
     gap: 4rem;
+    z-index: 2;
 }
 
 .contact_logos>a>img {
@@ -59,7 +50,7 @@
 }
 
 .footer_blur_red {
-    background: rgba(138, 29, 29, 0.6);
+    background: rgba(227, 6, 6, 0.6);
     left: 76rem;
 }
 
