@@ -3,7 +3,7 @@ import { github, linkedin, twitter } from '../assets';
 export const contactLogos = [
     {
         img: linkedin,
-        link: '',
+        link: 'https://www.linkedin.com/in/sebastian-madero-mercado-0423a1266/',
     },
     {
         img: twitter,
