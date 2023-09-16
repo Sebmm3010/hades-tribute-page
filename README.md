@@ -48,7 +48,6 @@ o
 ```sh
 npm install
 ```
-4. Crear en **styles** un archivo llamado stars.css, luego pegar los estilos de https://gist.github.com/Sebmm3010/1471364d7d3efd607c746e848b9bcb0b
 
 ## License
 
